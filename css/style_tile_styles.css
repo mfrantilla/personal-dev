@@ -1,0 +1,256 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+
+.color-1
+{
+  background-color: #2F6380;
+  border: none;
+}
+
+.color-2
+{
+  background-color: #9BBF4A;
+  border: none;
+}
+.color-3
+{
+  background-color: #90A661;
+  border: none;
+}
+.color-4
+{
+  background-color: #9A7752;
+  border: none;
+}
+
+.color-5
+{
+  background-color: #FCEFC2;
+  border: none;
+}
+
+/* Textures or Patterns*/
+.pattern-1{
+    background: url(../img/sativa.png);
+}
+
+.pattern-2{
+    background: url(../img/greyzz.png);
+}
+.pattern-3{
+    background: url(../img/pw_maze_white.png);
+}
+.pattern-4{
+    background: url(../img/wild_flowers.png);
+}
+
+
+/* Imagery */
+
+.imagery-1{
+    border: none;
+}
+/* Icons */
+
+
+/* Typography */
+
+.primaryText h2{
+    color: #9BBF4A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    text-decoration: underline;
+
+}
+
+.primaryText h3{
+    color: #9BBF4A;
+}
+
+.primaryText p{
+   color: #2F6380;
+   line-height: 1.7em;
+    }
+.primaryText p a{
+    color: #9BBF4A;
+    text-decoration: underline;
+    
+    
+}
+
+
+
+
+
+.secondaryText h2{
+    color: #9A7752;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    text-decoration: underline;
+
+}
+
+.secondaryText h3{
+    color: #9A7752;
+}
+
+.secondaryText p{
+    font-family: 'Bitter', serif;
+   color: #2F6380;
+   line-height: 1.7em;
+    }
+.secondaryText p a{
+    color: #9A7752;
+    text-decoration: underline;
+    
+    
+}
+/* Forms */
+input{
+    background-color:  #FBF4DB;
+    border: none;
+    height: 2em;
+    width: 15em;
+    padding-left: 1em;
+    color: #9A7752;
+}
+
+label{
+    color: #9A7752;
+}
+
+/* Tables */
+
+td{
+   color: #2F6380;
+    border-color: #9BBF4A;
+}
+
+
+/*BUTTONS*/
+.button-a{
+    background: #2F6380;
+    color: white;
+    padding: 1em;
+    font-family: "Open Sans", sans-serif;
+    border-radius: .3em;
+    
+}
+
+.button-b{
+    background: #9BBF4A;
+    color: white;
+    padding: 1em;
+    font-family: "Open Sans", sans-serif;
+    border-radius: .3em;
+    
+}
+
+/* Cards */
+
+figure{
+    border-radius: 1em;
+    background-color: #2F6380;
+    border: none;
+    color: white;
+    font-family: "Bitter", serif;
+    letter-spacing: .5px;
+    width: 300px;
+}
+
+figcaption{
+    line-height: 1.5em;
+}
+figure h2{
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+
+/*Text*/
+
+
+
+
+
+/*NAVIGATION*/
+
+.primaryNav ul{
+    background-color: #90A661;
+    padding-top: .5em;
+    padding-bottom: .5em;
+
+}
+
+.primaryNav button{
+    background-color:  #90A661;
+    padding: .5em;
+    border-style: none;
+    color: #FBF4DB;
+    border-radius: 3px;
+}
+.primaryNav li
+{
+    
+    list-style: none;
+    display: inline;
+    font-size: 1.5em;
+    color: #FBF4DB;
+    background-color: #90A661;
+    
+}
+
+.primaryNav li a{
+    color: #FBF4DB;
+    text-decoration: none;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.primaryNav a{
+    color:  #90A661;
+}
+
+
+
+.secondaryNav ul
+{
+    background-color: #9A7752;
+    padding-top: .5em;
+    padding-bottom: .5em;
+
+}
+
+.secondaryNav button{
+    background-color:  #9A7752;
+    padding: .5em;
+    border-style: none;
+    color: #FBF4DB;
+    border-radius: 3px;
+}
+.secondaryNav li
+{
+    
+    list-style: none;
+    display: inline;
+    font-size: 1.5em;
+    color: #FBF4DB;
+    background-color: #9A7752;
+    
+}
+
+.secondaryNav li a{
+    color: #FBF4DB;
+    text-decoration: none;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.secondaryNav a{
+    color:  #9A7752;
+    font-size: 1em;
+}
+
