@@ -1,14 +1,28 @@
 /********************
 YOUR STYLES
 *******************/
-
-.stuff{
-    background-color: wheat;
-    min-height: 40em;
-    display: block;
+html{
+     background-image: url(../img/mooning.png);
     
 }
+.main{
+    background-color: #BBBABA;
+    min-height: 40em;
+    display: block;
+    width: 75%;
+    margin: auto;
+   
+}
 
+.logo{
+    z-index: 999;
+    position: fixed;
+    display: inline;
+    height: 45%;
+    width: 45%;
+    float: left;
+
+}
 
 
 
@@ -50,12 +64,6 @@ NAV
     
 }
 
-.nav img{
-    height: 5%;
-    width: 5%;
-    display: inline-block;
-    margin-left: 2em;
-}
 
 
 
