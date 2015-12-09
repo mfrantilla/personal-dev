@@ -2,21 +2,97 @@
 YOUR STYLES
 *******************/
 
+.stuff{
+    background-color: wheat;
+    min-height: 40em;
+    display: block;
+    
+}
 
 
 
-help me.
+
+/************
+NAV
+*******/
+
+.nav{
+    background: hsla(202, 44%, 50%, .75);
+    text-align: right;
+    color: white;
+    padding: .05em;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.nav ul{
+    padding-right: 3em;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav li a:link, a:visited{
+    display: inline;
+    font-family: bonvenocflight;
+    color: white;
+    text-decoration: none;
+    font-size:1.09em;
+}
+
+.nav li a:hover{
+    display: inline;
+    color:hsla(208, 26%, 36%, 1);
+    -webkit-transition: all .32s;
+    
+}
+
+.nav img{
+    height: 5%;
+    width: 5%;
+    display: inline-block;
+    margin-left: 2em;
+}
 
 
 
 
+/********************
+POSSIBLE FONTS
+********************/
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('../fonts/BonvenoCF-Light-webfont.eot');
+    src: url('../fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('../fonts/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /********************
 MEDIA QUERIES
 *******************/
 
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
 
 }
 /* Tablet */
